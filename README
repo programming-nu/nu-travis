@@ -4,7 +4,7 @@ build and unit test Objective-C code using Travis CI.
 
 Objective-C source code is assumed to be in the "objc"
 directory, and building and testing is orchestrated using
-the "nuke", the Nu build tool.
+"nuke", the Nu build tool.
 
 Running this locally requires Nu, which is available at
 http://github.com/timburks/nu.
