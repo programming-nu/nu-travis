@@ -3,4 +3,4 @@
 (class TestExample is NuTestCase
  
  (- testSquare is
-    (assert_equal 3 ((NuTravisTest new) squareOfNumber:2))))
+    (assert_equal 4 ((NuTravisTest new) squareOfNumber:2))))
