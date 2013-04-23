@@ -1,7 +1,21 @@
 
-Let's try using Nu in Travis CI.
+This is a simple example showing how Nu can be used to 
+build and unit test Objective-C code using Travis CI.
 
-... it works!
+Objective-C source code is assumed to be in the "objc"
+directory, and building and testing is orchestrated using
+the "nuke", the Nu build tool.
+
+Running this locally requires Nu, which is available at
+http://github.com/timburks/nu.
+
+The repository is configured for unit tests to pass. 
+To see a failure, change "4" to something else in 
+test/test_sample.nu.
+
+Travis CI is a hosted continuous integration service
+offered at no charge to open source projects hosted
+on GitHub. For full details see https://travis-ci.org
 
 Tim Burks
 4/23/2013
