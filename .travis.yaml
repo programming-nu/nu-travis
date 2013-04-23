@@ -1,5 +1,7 @@
-before_script:
-- git clone git://github.com/timburks/nu.git
-- cd nu; make; mininush tools/nuke install
 language: objective-c
 script: nuke
+before_script:
+- pwd
+- mkdir tmp
+- cd tmp; git clone git://github.com/timburks/nu.git
+- cd tmp/nu; make; mininush tools/nuke install
